@@ -1,0 +1,87 @@
+
+body {
+    margin: 0;
+    padding:0;
+
+}
+
+table.greyGridTable {
+    font-family: Verdana, Geneva, sans-serif;
+    border: 1px solid #ADADAD;
+    background-color: #EEEEEE;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  table.greyGridTable td, table.greyGridTable th {
+    border: 1px solid #FFFFFF;
+    padding: 4px 7px;
+  }
+  table.greyGridTable tbody td {
+    font-size: 16px;
+  }
+  table.greyGridTable tr:nth-child(even) {
+    background: #D0E4F5;
+  }
+  table.greyGridTable td:nth-child(even) {
+    background: #EBEBEB;
+  }
+  table.greyGridTable thead {
+    background: #FFFFFF;
+    border-bottom: 1px solid #333333;
+  }
+  table.greyGridTable thead th {
+    font-size: 20px;
+    font-weight: bold;
+    color: #5E299B;
+    text-align: center;
+    border-left: 1px solid #333333;
+  }
+  table.greyGridTable thead th:first-child {
+    border-left: none;
+  }
+  
+  table.greyGridTable tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    border-top: 4px solid #333333;
+  }
+  table.greyGridTable tfoot td {
+    font-size: 14px;
+  }
+
+  h1{
+      color:rebeccapurple;
+      text-align: center;
+      font-family: sans-serif;
+  }
+
+  header{
+      width: 100%;
+      height: 4rem;
+      background-color: royalblue;
+  }
+
+  ul{
+      display:flex;
+      margin: 0;
+      padding:0;
+      
+  }
+  li{
+      list-style: none;
+      margin: 20px;
+  }
+  a{
+      text-decoration: none;
+      color:white;
+      font-family: sans-serif;
+      font-size: 1.2rem;
+  }
+ nav{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+  

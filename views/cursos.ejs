@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos</title>
+    <link rel="stylesheet" href="/css/app.css">
+</head>
+<header>
+    <nav>
+        <ul>
+            <li><a href="/">Listado de Estudiantes</a></li>
+            <li><a href="/cursos">Cursos</li></a>
+            <li><a href="/asistencia">Asistencia</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <h1>Cursos</h1>
+    <table class="greyGridTable">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% for (let curso of cursos ) { %>
+            <tr>
+                <td><%=curso.nombre  %> </td>
+            </tr>
+            <% } %>
+        </tbody>
+        </tr>
+    </table>
+</body>
+
+</html>

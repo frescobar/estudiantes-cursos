@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asistencia</title>
+    <link rel="stylesheet" href="/css/app.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Listado de Estudiantes</a></li>
+                <li><a href="/cursos">Cursos</a></li>
+                <li><a href="/asistencia">Asistencia</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Estudiantes</h1>
+    <table class="greyGridTable">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% for (let estudiante of estudiantes ) { %>
+            <tr>
+                <td><%=estudiante.nombre  %> </td>
+                <td><%=estudiante.apellido  %> </td>
+            </tr>
+            <% } %>
+        </tbody>
+        </tr>
+    </table>
+
+</body>
+
+
+
+
+
+</html>
